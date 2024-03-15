@@ -41,7 +41,7 @@ add_to_bag "position3"
 
 echo "Bag: ${linked_array[@]}"
 
-item_from_queue=$(remove_from_queue)
+position_from_queue=$(remove_from_queue)
 echo "position removed from queue: $position_from_queue"
 
 add_to_queue "new position"
